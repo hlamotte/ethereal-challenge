@@ -42,6 +42,7 @@ What core contracts would you use to track this kind of activity?
 Trends around volume/TVL, assets, bridging solutions, user activity, key contracts, highly used/in-demand contracts over a weekly period
 
 If you were to move assets from one ecosystem to another, which kind of bridge solution would you use? There is some ambiguity in this question, but feel free to expound on your thoughts
+
 What are the core issues you see with Dune Analytics as it relates to highlighting more information on this category?
 
 If you were to build out a product like Dune Analytics, what kind of architecture/software components would you use?
