@@ -35,6 +35,8 @@ Short FR -> drives MSI up (fixed-rate borrow) (think price of PT is going to dec
 Some factors that will influence it:
 - APY on large market cap yield farming opportunities like Dai Savings Rate as arbitrage opportunities
 
+Playing around with influence of market conditions: https://github.com/hlamotte/elf-simulations/blob/main/examples/notebooks/hamish_expts/frida_louie_simulation_copy.ipynb
+
 - Hyperdrive.ipynb does not implement agents that respond to market conditions
 - Adding more than 200 random agents modeling becomes very slow.
 - Modeling down to many agents small agents doesn't scale well, can we model aggregate behaviour of many actors as a single agent?
