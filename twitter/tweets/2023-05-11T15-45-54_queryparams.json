@@ -1,0 +1,1 @@
+{"query": "StarkNet development -is:reply -is:retweet", "tweet.fields": "author_id,created_at", "max_results": 100}

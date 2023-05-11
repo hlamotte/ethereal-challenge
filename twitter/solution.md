@@ -1,5 +1,5 @@
 1. Twitter API
-- free version does not support read access anymore
+
 - 100USD/month basic read access of tweets
 
 https://developer.twitter.com/en/docs/tutorials/developer-guide--twitter-api-toolkit-for-google-cloud1

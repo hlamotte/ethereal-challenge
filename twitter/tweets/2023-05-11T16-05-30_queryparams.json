@@ -1,0 +1,1 @@
+{"query": "StarkNet CAIRO -is:reply -is:retweet lang:en", "tweet.fields": "author_id,created_at", "max_results": 100}

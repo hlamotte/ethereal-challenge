@@ -37,7 +37,7 @@ Simplify problem by just looking at Ethereum side of bridges and investigate num
 
 Start with WBTC and MULTI as contract infrastructure straightforward to understand on ethereum:
 - WBTC = `0x2260fac5e5542a773aa44fbcfedf7c193bc2c599` is an ERC20
-- Multichain = `0x9Fb9a33956351cf4fa040f65A13b835A3C8764E3` is not an ERC20
+- Multichain = `0xBa8Da9dcF11B50B03fd5284f164Ef5cdEF910705` is not an ERC20
 - Wormhole/Portal = `0x3ee18B2214AFF97000D974cf647E7C347E8fa585` is not an ERC20
 - RenBTC = `0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D` is an ERC20
 
@@ -83,9 +83,13 @@ In most cases users care about how money is moving around the blockchain ecosyst
     - relevant function calls
     - state changes
 
+
 This data model could be used to calculate which projects are seeing high interaction value volumes and the typologies of these interactions.
 
 Incentivise projects to provide a mapping for their protocol to this schema so that there data will be available.
+
+Another helpful view is of the state of balances around the network and how it has changed over time:
+- In Dune v1 there is `erc20."view_token_balances_daily"` which covers this for Ethereum only, but needs to be scaled to all networks.
 
 Just having the SQL interface for Dune, it's hard to develop your own data models for your own applications, and it's not very human readable. As analytics/BI people tend to be most familiar with SQL I understand why they went with this approach, but it would be helpful to have your own intermediary tables in this case.
 
