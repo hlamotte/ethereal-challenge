@@ -37,7 +37,7 @@ Simplify problem by just looking at Ethereum side of bridges and investigate num
 
 Start with WBTC and MULTI as contract infrastructure straightforward to understand on ethereum:
 - WBTC = `0x2260fac5e5542a773aa44fbcfedf7c193bc2c599` is an ERC20
-- Multichain = `0xBa8Da9dcF11B50B03fd5284f164Ef5cdEF910705` is not an ERC20
+- Multichain = `0xBa8Da9dcF11B50B03fd5284f164Ef5cdEF910705` is not an ERC20 - looks to be only for ether/WETH
 - Wormhole/Portal = `0x3ee18B2214AFF97000D974cf647E7C347E8fa585` is not an ERC20
 - RenBTC = `0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D` is an ERC20
 
@@ -96,3 +96,6 @@ Just having the SQL interface for Dune, it's hard to develop your own data model
 Software stack for Dune:
 - Spark data pipelines (Databricks)
 - S3 for storage of delta tables
+
+Multichain deployer 4 address: `0xfA9dA51631268A30Ec3DDd1CcBf46c65FAD99251`:
+Get addresses of outgoing transactions, these could be assumed to contain liquidity pools if this EOA is reponsible for creating all the liquidity pools.
